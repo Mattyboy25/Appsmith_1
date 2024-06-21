@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "widgetName": "con_login",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -11,7 +11,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 64,
+    "bottomRow": 106,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -19,16 +19,13 @@
     "animateLoading": true,
     "parentColumnSpace": 23.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 12,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 640,
+        "bottomRow": 1060,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -56,8 +53,8 @@
     "key": "wa7a1coj08",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 43,
-    "dynamicHeight": "AUTO_HEIGHT",
+    "rightColumn": 64,
+    "dynamicHeight": "FIXED",
     "widgetId": "s1b0qjafgz",
     "containerStyle": "card",
     "minWidth": 450,
@@ -67,9 +64,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 64,
     "minDynamicHeight": 10
 }
