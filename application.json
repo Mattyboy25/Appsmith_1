@@ -1,35 +1,19 @@
 {
   "pages": [
     {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "Orders",
-      "isDefault": false
-    },
-    {
-      "id": "Customers",
-      "isDefault": false
-    },
-    {
-      "id": "Products",
-      "isDefault": false
-    },
-    {
-      "id": "Returns",
+      "id": "Table",
       "isDefault": false
     },
     {
       "id": "Authentication",
-      "isDefault": true
-    },
-    {
-      "id": "Page1",
       "isDefault": false
     },
     {
       "id": "Public.users",
+      "isDefault": true
+    },
+    {
+      "id": "Public.assignment",
       "isDefault": false
     }
   ],

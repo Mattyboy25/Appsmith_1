@@ -1,0 +1,61 @@
+{
+  "unpublishedPage": {
+    "name": "Table",
+    "slug": "table",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 820,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Table_fetch_users",
+              "name": "fetch_users",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "tbl_users.pageSize",
+                "dat_bornAfter.selectedDate",
+                "\"%\" + (tbl_users.searchText || \"\") + \"%\"",
+                "tbl_users.pageOffset",
+                "sel_country.selectedOptionValue !== \"\" ? \"AND country = '\" + sel_country.selectedOptionValue + \"'\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Table",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6674f275efef535e8dc6580f_dfe0cc66-e1fd-4f9e-98c5-8762cb5c6494"
+}
